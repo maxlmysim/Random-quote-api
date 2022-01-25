@@ -43,6 +43,11 @@ body {
     padding-bottom: 20px;
 }
 
+.container__quote {
+    max-width: 60vw;
+    text-align: justify;
+}
+
 .container__quote-author {
     color: #80494b;;
 }
