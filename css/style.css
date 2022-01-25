@@ -49,5 +49,52 @@ body {
 }
 
 .container__quote-author {
-    color: #80494b;;
+    color: #80494b;
+}
+
+.text-link {
+    text-decoration: none;
+    color: rgba(37, 38, 47, 0.73);
+}
+
+.text-link:hover {
+    color: rgb(232, 190, 54);
+    cursor: pointer;
+    fill: rgb(232, 190, 54);
+    transition: all 0.2s ease-in-out;
+}
+
+.footer {
+    position: absolute;
+    background-color: rgba(73, 166, 233, 0.44);
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    color: rgba(37, 38, 47, 0.73);
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: calc(100% - 60px);
+    max-width: 1440px;
+    align-items: center
+}
+
+.footer__data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.rss-logo {
+    fill: rgba(37, 38, 47, 0.73);
+    height: 40px;
+    width: 120px;
 }
