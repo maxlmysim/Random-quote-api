@@ -1,100 +1,98 @@
 body {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Open Sans", sans-serif;
-    background: hsl(210, 36%, 96%);
-    color: hsl(209, 61%, 16%);
-    line-height: 1.5;
-    font-size: 0.875rem;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background: hsl(210, 36%, 96%);
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container__button {
-    background: #49a6e9;
-    border: 4px solid #49a6e9;
-    border-radius: 8px;
-    color: #ffffff;
-    letter-spacing: 3px;
-    width: 200px;
-    padding: 0.375rem 0.75rem;
-    cursor: pointer;
-    box-shadow: 5px 5px 5px gray;
-    transition: all 0.2s ease-in-out;
+  background: #49a6e9;
+  border: 4px solid #49a6e9;
+  border-radius: 8px;
+  color: #ffffff;
+  letter-spacing: 3px;
+  width: 200px;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px gray;
+  transition: all 0.2s ease-in-out;
 }
 
 .container__button:hover {
-    background: #26516f
+  background: #26516f;
 }
 
 .container__button:active {
-    box-shadow: none;
+  box-shadow: none;
 }
 
-
 .page-author {
-    height: 250px;
-    padding-bottom: 20px;
+  height: 250px;
+  padding-bottom: 20px;
 }
 
 .container__quote {
-    max-width: 60vw;
-    text-align: justify;
+  max-width: 60vw;
+  text-align: justify;
 }
 
 .container__quote-author {
-    color: #80494b;
+  color: #80494b;
 }
 
 .text-link {
-    text-decoration: none;
-    color: rgba(37, 38, 47, 0.73);
+  text-decoration: none;
+  color: rgba(37, 38, 47, 0.73);
 }
 
 .text-link:hover {
-    color: rgb(232, 190, 54);
-    cursor: pointer;
-    fill: rgb(232, 190, 54);
-    transition: all 0.2s ease-in-out;
+  color: rgb(232, 190, 54);
+  cursor: pointer;
+  fill: rgb(232, 190, 54);
+  transition: all 0.2s ease-in-out;
 }
 
 .footer {
-    position: absolute;
-    background-color: rgba(73, 166, 233, 0.44);
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    font-size: 20px;
-    color: rgba(37, 38, 47, 0.73);
-
+  position: absolute;
+  background-color: rgba(73, 166, 233, 0.44);
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  color: rgba(37, 38, 47, 0.73);
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    width: calc(100% - 60px);
-    max-width: 1440px;
-    align-items: center
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: calc(100% - 60px);
+  max-width: 1440px;
+  align-items: center;
 }
 
 .footer__data {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
 }
 
 .rss-logo {
-    fill: rgba(37, 38, 47, 0.73);
-    height: 40px;
-    width: 120px;
+  fill: rgba(37, 38, 47, 0.73);
+  height: 40px;
+  width: 120px;
 }
