@@ -29,3 +29,4 @@ const quoteAuthor = document.querySelector(".container__quote-author");
 
 buttonNewQuote.addEventListener("click", getQuote);
 
+getQuote()
